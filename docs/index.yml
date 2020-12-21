@@ -1,0 +1,13 @@
+openapi: 3.0.0
+server:
+  url: http://127.0.0.1:4550
+info:
+  version: 0.1.0
+  title: Katheryne News Service
+  description: Pulling news-feed from genshin services
+paths:
+  /{id}:
+  $ref: ./paths/id.yml
+  /:
+  $ref: ./paths/index.yml
+components:
